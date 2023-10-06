@@ -13,6 +13,9 @@ window.onscroll = function () {
     }, 300);
     $(".container-header h2").hide("fast");
 
+    $("main").animate({ paddingTop: "100px" });
+    $(".sticky").css({ transform: "none" });
+
     if (document.getElementById("header").style.height != "100px") {
         this.scrollTo(0, 0);
     }

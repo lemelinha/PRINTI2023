@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sticky {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 250px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-portal {
+    flex: 1;
+    height: 300px;
+    transition: 300ms;
+}
+
+.container-portal:hover {
+    transform: translateY(-40px);
+    padding-bottom: 40px;
+}
+
+.caixa {
+    height: 100%;
+}
+
+#container-portal1 {
+    background-color: blue;
+}
+
+#container-portal2 {
+    background-color: red;
+}
+
+#container-portal3 {
+    background-color: green;
+}
+
+#container-portal4 {
+    background-color: yellow;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    height: 300px;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -6,7 +6,6 @@
 }
 
 header {
-    position: relative;
     height: 70vh;
     width: 100vw;
     background-color: #87ceeb;
@@ -16,14 +15,20 @@ header {
     overflow: hidden;
 }
 
+header #logo-cabecalho {
+    position: absolute;
+    width: 100px;
+    transform: translateX(-100%) rotate(90deg);
+}
+
 .container-header {
     margin: auto;
     max-width: 900px;
     padding: 8vh 15px 0 15px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     box-sizing: border-box;
 }
 
@@ -46,8 +51,12 @@ header {
         height: 50vh;
     }
 
+    header #logo-cabecalho {
+        width: 60px;
+    }
+
     .container-header h1 {
-        font-size: 61px;
+        font-size: 48px;
     }
 
     .container-header h2 {

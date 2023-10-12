@@ -17,6 +17,8 @@ header {
 
 header #logo-cabecalho {
     position: absolute;
+    top: 0;
+    left: 0;
     width: 100px;
     transform: translateX(-100%) rotate(90deg);
 }

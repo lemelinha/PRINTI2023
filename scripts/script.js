@@ -1,4 +1,4 @@
-window.onscroll = function () {
+$(window).scroll(function () {
     $("header").animate({ height: "100px" }, 400);
     $(".container-header").animate({
         height: "100px",
@@ -16,4 +16,6 @@ window.onscroll = function () {
         this.scrollTo(0, 0);
     }
 
-};
+    // para o portal
+    $(".sticky").transit({ transform: "translate(0)" }, 300);
+});

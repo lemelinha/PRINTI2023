@@ -14,3 +14,25 @@ main {
     margin: 0 auto 50px auto;
     padding-top: 100px;
 }
+
+main h2 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main h3 {
+    margin-top: 25px;
+    font-size: 32px;
+}
+
+main p {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-indent: 10px;
+}
+
+main ul {
+    font-size: 20px;
+    list-style-position: inside;
+}

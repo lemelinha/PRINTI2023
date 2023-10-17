@@ -28,10 +28,13 @@
 
 .caixa {
     height: 100%;
+    font-size: 20px;
 }
 
 #container-portal1 {
-    background-color: blue;
+    background-image: url("../images/internet-funciona/image9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #container-portal2 {

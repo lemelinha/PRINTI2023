@@ -6,13 +6,15 @@
 }
 
 header {
-    height: 70vh;
+    height: 100px;
     width: 100vw;
     background-color: #87ceeb;
     position: fixed;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 100px;
 }
 
 header #logo-cabecalho {
@@ -20,48 +22,4 @@ header #logo-cabecalho {
     top: 0;
     left: 0;
     width: 100px;
-    transform: translateX(-100%) rotate(90deg);
-}
-
-.container-header {
-    margin: auto;
-    max-width: 900px;
-    padding: 8vh 15px 0 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-}
-
-.container-header img {
-    max-width: 60%;
-    order: 1;
-}
-
-.container-header h1 {
-    font-size: 88px;
-}
-
-.container-header h2 {
-    font-size: 32px;
-}
-
-@media screen and (max-width: 767px) {
-
-    header {
-        height: 50vh;
-    }
-
-    header #logo-cabecalho {
-        width: 60px;
-    }
-
-    .container-header h1 {
-        font-size: 48px;
-    }
-
-    .container-header h2 {
-        font-size: 14px;
-    }
 }

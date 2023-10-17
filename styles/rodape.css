@@ -13,8 +13,6 @@
     margin-bottom: 250px;
     display: flex;
     flex-direction: row;
-    transform: translateY(100%);
-    transition: 200ms;
 }
 
 .container-portal {

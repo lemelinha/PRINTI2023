@@ -6,11 +6,6 @@
 }
 
 @font-face {
-    font-family: "Josefin Italic";
-    src: url("../fonts/JosefinSans-Italic-VariableFont_wght.ttf") format("truetype");
-}
-
-@font-face {
     font-family: "Code";
     src: url("../fonts/MPLUSCodeLatin-VariableFont_wdth\,wght.ttf") format("truetype");
 }
@@ -19,6 +14,27 @@
     --fonte-padrao: "Josefin";
     --fonte-padrao-italico: "Josefin Italic";
     --fonte-titulo: "Code";
+
+    --cor-destaque-internet: #015a6c;
+    --cor-destaque-musica: #df9939;
+    --cor-destaque-esporte: #348a5d;
+    --cor-destaque-religiao: #ad2b33;
+}
+
+#destaque-internet {
+    color: var(--cor-destaque-internet);
+}
+
+#destaque-musica {
+    color: var(--cor-destaque-musica);
+}
+
+#destaque-esporte {
+    color: var(--cor-destaque-esporte);
+}
+
+#destaque-religiao {
+    color: var(--cor-destaque-religiao);
 }
 
 * {
@@ -28,7 +44,7 @@
 
 body {
     height: 100vh;
-    background-color: #fff;
+    background-color: #dededc;
 }
 
 main {
@@ -40,6 +56,7 @@ article {
     padding: 20px;
     margin: auto;
     font-family: var(--fonte-padrao), sans-serif;
+    color: #3b3c5a;
 }
 
 article h2 {

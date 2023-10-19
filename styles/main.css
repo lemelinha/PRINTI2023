@@ -89,6 +89,7 @@ article img.border {
 article section.image-lateral img {
     float: right;
     box-sizing: border-box;
+    max-width: 50%;
 }
 
 article figcaption {

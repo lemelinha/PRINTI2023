@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: "Lot";
+    src: url("../fonts/Lot-Regular.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,8 +14,8 @@
     position: sticky;
     bottom: 0;
     width: 100%;
-    height: 50px;
-    margin-bottom: 150px;
+    height: 70px;
+    margin-bottom: 130px;
     display: flex;
     flex-direction: row;
 }
@@ -28,12 +33,11 @@
 
 .caixa {
     height: 100%;
-    font-size: 20px;
     color: #fff;
     padding-top: 5px;
+    font-family: "Lot";
     text-align: center;
-    font-weight: bolder;
-    font-size: 1.7em;
+    font-size: 30px;
     text-shadow: 0px 0px 20px black;
 }
 
@@ -75,4 +79,22 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (min-width: 767px) and (max-width:1023px) {
+    .caixa {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .caixa {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 364px) {
+    .caixa {
+        font-size: 0;
+    }
 }

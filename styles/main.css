@@ -83,7 +83,7 @@ article img.center {
 article img.border {
     border: 1px solid #c4c4c4;
     padding: 5px;
-    box-shadow: 0 10px 15px #818181;
+    box-shadow: 0 5px 5px #818181;
 }
 
 article section.image-lateral img {
